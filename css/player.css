@@ -1,5 +1,17 @@
-.player {
+@import './playerControls.css';
+@import './playerPlayback.css';
+@import './player-volume.css';
+@import './nowPlaying.css';
 
+.player {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  box-shadow: inset 0 1px 0 var(--gray30);
+}
+
+.player > * {
+  flex: 1;
 }
 
 .player-control {
@@ -7,6 +19,11 @@
   padding: .5rem;
   background: none;
   color: var(--gray10);
-  font-size: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
+}
+
+.player-playerVolume {
+  display: flex;
+  justify-content: flex-end;
 }

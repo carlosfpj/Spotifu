@@ -6,11 +6,7 @@
 @import './sidebar.css';
 @import './ellipsis.css';
 @import './slider.css';
-@import './playerControls.css';
-@import './playerPlayback.css';
-@import './player-volume.css';
 @import './player.css';
-@import './nowPlaying.css';
 
 :root {
   font-size: 16px;
