@@ -3,9 +3,54 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  padding-block-start: 2rem;
+}
+
+.playlist-title {
+  color: var(--white);
 }
 
 .playlist-title h2 {
-  color: var(--white);
   font: var(--headLine1);
+  margin: 0;
+}
+
+.playlist-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block-start: 1.5rem;
+  margin-block-end: 1rem;
+}
+
+.playlist-details  p{
+  margin: 0;
+  font: var(--basefont);
+  color: var(--white);
+}
+
+.playlist-action  button{
+  inline-size: 8rem;
+  block-size: 2rem;
+  border-radius: 1rem;
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+}
+
+.playlist-list {
+  margin-block-start: 3rem;
+}
+
+.playlist-filter {
+  margin-block: 1rem;
+  color: (--gray10);
+}
+
+.playlist-top {
+  color: var(--gray10);
+}
+
+.playlist-song {
+  color: var(--white);
 }

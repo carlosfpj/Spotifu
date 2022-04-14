@@ -29,6 +29,10 @@
   background-size: cover;
 }
 
+.layout-main-filter {
+  background: linear-gradient(#28282800, #282828);
+}
+
 .layout-bottom {
   flex: 1;
   block-size: var(--bottomSize);
