@@ -59,6 +59,11 @@
   justify-content: space-between;
 }
 
+.playlist-top-data {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .playlist-top-icons{
   display: flex;
   gap: 2.5rem;
@@ -67,6 +72,19 @@
 
 .playlist-song {
   color: var(--white);
+  display: flex;
+  justify-content: space-between;
+}
+
+.playlist-song-action {
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 1;
+  gap: 1rem;
+  align-content: center;
+}
+
+.playlist-song-data {
   display: flex;
   justify-content: space-between;
 }
